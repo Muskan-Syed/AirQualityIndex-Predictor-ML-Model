@@ -34,7 +34,8 @@ To develop a reliable and interactive system that:
 - **Model Used:** Logistic Regression  
 - **Training Platform:** Google Colab  
 - **Prediction Type:** Multi-class classification  
-- **Deployment:** Web-based interface using Gradio  
+- **Interface:** Gradio
+- **Deployment & Hosting:** Hugging Face Spaces
 
 ---
 
