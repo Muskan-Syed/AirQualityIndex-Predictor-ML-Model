@@ -9,6 +9,14 @@ The **Urban Air Quality Index (AQI) Prediction System** is a machine learning-ba
 Built using a **Logistic Regression** model, the system processes pollutant and weather data to provide real-time AQI classification along with prediction confidence.
 
 ---
+## 📂 Project Files
+
+- `app.py` – Gradio web application for AQI prediction  
+- `logistic_regression_model.joblib` – Trained Logistic Regression model  
+- `label_encoder.joblib` – Saved label encoder used for encoding AQI categories  
+- `AirPollutionPrediction.ipynb` – Model training notebook (Google Colab)  
+- `requirements.txt` – Project dependencies required for deployment
+---
 
 ## 🎯 Objective
 
