@@ -91,6 +91,10 @@ The model accepts the following environmental inputs:
 
 ---
 
+## ⚙️ 𝐌𝐨𝐝𝐞𝐥 𝐀𝐜𝐜𝐮𝐫𝐚𝐜𝐲 : 𝟗𝟗.𝟖𝟕%
+
+---
+
 ## 🔐 License
 
 **All Rights Reserved.**  
