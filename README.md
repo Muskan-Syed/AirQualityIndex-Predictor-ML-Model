@@ -1,107 +1,94 @@
-Urban Air Quality Index (AQI) Prediction System is a machine learning-based web application that predicts air quality categories using environmental and atmospheric parameters. Built using Logistic Regression, the system processes pollutant and weather data to provide real-time AQI classification along with prediction confidence.
+# 🌫 Urban Air Quality Index (AQI) Prediction System
 
-Urban Air Quality Index (AQI) Prediction System
-📌 Project Overview
+---
 
-The Urban Air Quality Index (AQI) Prediction System is a machine learning-based web application that predicts the AQI category based on real-time environmental and atmospheric parameters.
+## 📌 Project Overview
 
-The system uses a trained Logistic Regression model to classify air quality levels into predefined categories (e.g., Low, Medium, High) and displays prediction confidence.
+The **Urban Air Quality Index (AQI) Prediction System** is a machine learning-based web application designed to predict air quality categories using environmental and atmospheric parameters.
 
-🎯 Objective
+Built using a **Logistic Regression** model, the system processes pollutant and weather data to provide real-time AQI classification along with prediction confidence.
 
-To build a reliable and interactive system that:
+---
 
-Analyzes environmental pollutant data
+## 🎯 Objective
 
-Predicts AQI category accurately
+To develop a reliable and interactive system that:
 
-Provides confidence score for prediction
+- Analyzes environmental pollutant data  
+- Predicts AQI category accurately  
+- Provides prediction confidence score  
+- Offers a user-friendly web interface for real-time input  
 
-Offers a user-friendly web interface for real-time input
+---
 
-🧠 Machine Learning Approach
+## 🧠 Machine Learning Approach
 
-Model Used: Logistic Regression
+- **Model Used:** Logistic Regression  
+- **Training Platform:** Google Colab  
+- **Prediction Type:** Multi-class classification  
+- **Deployment:** Web-based interface using Gradio  
 
-Training Platform: Google Colab
+---
 
-Feature Engineering: Structured environmental parameters
+## 📊 Input Parameters
 
-Prediction Type: Multi-class classification
+The model accepts the following environmental inputs:
 
-Deployment: Web-based interface using Gradio
+- PM2.5  
+- PM10  
+- NO₂  
+- SO₂  
+- CO  
+- O₃  
+- Temperature (°C)  
+- Humidity (%)  
+- Wind Speed (m/s)  
+- Atmospheric Pressure (hPa)  
+- Rainfall (mm)  
+- Hour of the Day  
+- Day of the Week  
+- Month  
 
-📊 Input Parameters
+---
 
-The model takes the following environmental inputs:
+## ⚙️ System Architecture
 
-PM2.5
+1. User inputs environmental parameters through the web interface  
+2. Inputs are structured into a DataFrame  
+3. The trained Logistic Regression model processes the data  
+4. AQI category is predicted  
+5. Confidence score is calculated  
+6. Results are displayed with visual emphasis  
 
-PM10
+---
 
-NO₂
+## 💻 Technologies Used
 
-SO₂
+- Python  
+- Pandas  
+- Scikit-learn  
+- Gradio  
+- Joblib  
 
-CO
+---
 
-O₃
+## 🚀 Key Features
 
-Temperature (°C)
+- Real-time AQI category prediction  
+- Interactive and responsive user interface  
+- Confidence percentage display  
+- Production-safe feature alignment  
+- Deployment-ready architecture  
 
-Humidity (%)
+---
 
-Wind Speed (m/s)
+## 🔐 License
 
-Atmospheric Pressure (hPa)
-
-Rainfall (mm)
-
-Hour of the Day
-
-Day of the Week
-
-Month
-
-⚙️ System Architecture
-
-User inputs environmental parameters via web UI
-
-Inputs are structured into a DataFrame
-
-Pre-trained Logistic Regression model processes data
-
-AQI category is predicted
-
-Confidence score is calculated
-
-Result is displayed with visual emphasis
-
-💻 Technologies Used
-
-Python
-
-Pandas
-
-Scikit-learn
-
-Gradio
-
-Joblib
-
-🚀 Key Features
-
-Real-time AQI category prediction
-
-Clean and interactive web interface
-
-Confidence percentage display
-
-Proper feature name alignment for production safety
-
-Deployment-ready architecture
-
-🔐 License
-
-All Rights Reserved.
+**All Rights Reserved.**  
 Unauthorized copying, modification, or distribution is prohibited.
+
+---
+
+# 🚀 LIVE DEPLOYMENT LINK
+
+## 🔗 https://huggingface.co/spaces/syedmuskan03/air-pollution-aqi-predictor
