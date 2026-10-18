@@ -258,3 +258,13 @@ python src/train_regressor.py --model xgboost
 ## 📄 License
 
 This project is licensed under the **MIT License** — feel free to use, modify, and distribute this codebase for academic, research, or commercial purposes. See the [LICENSE](LICENSE) file for complete details.
+
+---
+
+---
+
+# 🚀 LIVE DEPLOYMENT LINK
+
+## 🔗 https://huggingface.co/spaces/syedmuskan03/air-pollution-aqi-predictor
+
+---
